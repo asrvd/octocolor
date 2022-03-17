@@ -21,6 +21,7 @@ export default function Color() {
         me.userStats(function (err, stats) {
             if (err) {
                 console.log(err);
+                setColorName("Not Found!");
                 return;
             }
             const total = stats[0]['value'] + stats[1]['value']
@@ -44,7 +45,7 @@ export default function Color() {
         })
     }
     const handleChange = (e) => {
-        console.log(e.target.value)
+        //console.log(e.target.value)
         setInp(e.target.value);
     }
     const colorClick = () => {
