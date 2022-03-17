@@ -47,6 +47,10 @@ export default function Color() {
         console.log(e.target.value)
         setInp(e.target.value);
     }
+    const colorClick = () => {
+        navigator.clipboard.writeText(Color);
+        alert("Copied to clipboard!")
+    }
     return (
         <div className="main-container">
             <div className="card-cont">
@@ -63,7 +67,7 @@ export default function Color() {
                     </HStack>
                 </div>
                 <Box className="color-card" borderRadius={'0.375em'}>
-                    <Box className="user-color" backgroundColor={`${Color}`} borderTopLeftRadius={'0.375em'} borderBottomLeftRadius={'0.375em'}>
+                    <Box className="user-color" onClick={colorClick} backgroundColor={`${Color}`} borderTopLeftRadius={'0.375em'} borderBottomLeftRadius={'0.375em'}>
                         <div className="color"></div>
                     </Box>
                     <div className="details">

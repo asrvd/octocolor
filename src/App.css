@@ -60,6 +60,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .details {
@@ -119,7 +120,7 @@ p {
   color: #C35E83;
 }
 
-footer p {
+.footer p {
   font-family: 'Patrick Hand', cursive;
   font-size: 1.2rem;
   font-weight: 600;
@@ -128,7 +129,13 @@ footer p {
   margin-top: 5px;
 }
 
-header h2 {
+.footer a {
+  color: #3D3157;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header h2 {
   font-family: 'Patrick Hand', cursive;
   font-size: 2rem;
   font-weight: 600;
