@@ -2,8 +2,8 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/68690233/158908371-7a74119f-c9f8-40fb-8caa-3604bc66e347.png" />
 
- 🤔 Wanna know what's your GitHub Profile Color?\
- 🐱 Head over to https://octocolor.vercel.app
+🤔 Wanna know what's your GitHub Profile Color?\
+🐱 Head over to https://octocolor.vercel.app
 </div>
 
 ## 🐱‍💻 How does GitColor work?
