@@ -1,7 +1,7 @@
-### 🌈 GitColor
+### 🌈OctoColor
 
-🤔 Wanna know what's your GitHub Color?\
-🐱 Head over to https://gitcolor.vercel.app
+🤔 Wanna know what's your GitHub Profile Color?\
+🐱 Head over to https://octocolor.vercel.app
 
 ### 🐱‍💻 How does GitColor work?
 

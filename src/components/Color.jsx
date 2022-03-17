@@ -73,7 +73,7 @@ export default function Color() {
                     </Box>
                     <div className="details">
                         <div className="details-head">
-                            <h2 className="main-heading">@{Inp}'s GitColor is ~ {ColorName}</h2>
+                            <h2 className="main-heading">@{Inp}'s OctoColor is ~ {ColorName}</h2>
                         </div>
                         <div className="details-body">
                             <div className="color-details">
