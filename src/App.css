@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  height: 5%;
+  position: sticky;
+  bottom: 0;
+}
+
+header {
+  height: 5%;
+}
+
+.main-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-cont {
+  padding: 10px;
+  width: 50%;
+  height: 40%;
+  min-height: 240px;
+}
+
+.color-card {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #FDC295;
+}
+
+.input-cont {
+  font-family: 'Patrick Hand', cursive;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.user-color {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  text-align: left;
+  height: 100%;
+  width: 70%;
+}
+
+.details-head {
+  font-family: 'Patrick Hand', cursive;
+  height: 20%;
+  margin-bottom: 5px;
+}
+
+.details-body {
+  height: 80%;
+  display: flex;
+}
+
+.color-details {
+  font-family: 'Patrick Hand', cursive;
+  width: 50%;
+}
+
+.lang-details {
+  font-family: 'Patrick Hand', cursive;
+  width: 50%;
+}
+
+.main-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3D3157;
+}
+
+.secondary-heading {
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #78496D;
+}
+
+button {
+  color: #3D3157 !important;
+}
+
+input {
+  color: #3D3157 !important;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #C35E83;
+}
+
+footer p {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #F07D84;
+  text-align: center;
+  margin-top: 5px;
+}
+
+header h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #F07D84;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .main-container {
+    width: 100%;
+    height: 90%;
+  }
+  .card-cont {
+    width: 80%;
+  }
+  .color-card {
+    width: 100%;
+    height: 60%;
+  }
+  .input-cont {
+    width: 100%;
+  }
+  .user-color {
+    width: 40%;
+  }
+  .details {
+    width: 100%;
+  }
+  .details-head {
+    width: 100%;
+  }
+  .details-body {
+    width: 100%;
+  }
+  .color-details {
+    width: 100%;
+  }
+  .lang-details {
+    width: 100%;
+  }
+  .main-heading {
+    font-size: 1.2rem;
+  }
+  .secondary-heading {
+    font-size: 1rem;
+  }
+  .header {
+    height: 5%;
+  }
+  .footer {
+    height: 5%;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    width: 100%;
+    height: 90%;
+  }
+  .card-cont {
+    width: 100%;
+  }
+  .color-card {
+    width: 100%;
+    height: 40%;
+  }
+  .input-cont {
+    width: 100%;
+  }
+  .user-color {
+    width: 20%;
+  }
+  .details {
+    width: 100%;
+  }
+  .details-head {
+    width: 100%;
+  }
+  .details-body {
+    width: 100%;
+  }
+  .color-details {
+    width: 100%;
+  }
+  .lang-details {
+    width: 100%;
+  }
+  .main-heading {
+    font-size: 1.2rem;
+  }
+  .header {
+    height: 5%;
+  }
+  .footer {
+    height: 5%;
+  }
+  .secondary-heading {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
