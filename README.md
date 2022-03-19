@@ -14,7 +14,7 @@ The idea is simple. We get the language info for all of a user's GitHub Reposito
 
 Clone the repos's main branch.
 ```sh
-$ git clone -b main https://github.com/asheeeshh/gitcolor.git
+$ git clone -b main https://github.com/asheeeshh/octocolor.git
 ```
 Install dependencies, make sure you have `nodejs` and `npm` installed.
 ```sh
